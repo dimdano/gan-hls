@@ -41,7 +41,10 @@ make all TARGET=hw DEVICE=xilinx_u50_gen3x16_xdma_201920_3
 ```bash
 make host TARGET=hw DEVICE=xilinx_u50_gen3x16_xdma_201920_3
 ``` 
-
+For emulation modes only you must set the XCL_EMULATION_MODE environment variable:
+```bash
+XCL_EMULATION_MODE=<sw_emu,hw_emu> 
+``` 
 Then to execute application with the generated bitstream:
 ```bash
 ./application_gan <path_to_bitstream>
