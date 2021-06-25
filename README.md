@@ -43,14 +43,14 @@ make host TARGET=hw DEVICE=xilinx_u50_gen3x16_xdma_201920_3
 ``` 
 For emulation modes only you must set the XCL_EMULATION_MODE environment variable:
 ```bash
-XCL_EMULATION_MODE=<sw_emu,hw_emu> 
+export XCL_EMULATION_MODE=<sw_emu,hw_emu> 
 ``` 
 Then to execute application with the generated bitstream:
 ```bash
 ./application_gan <path_to_bitstream>
 ``` 
 
-- (Optional): The project uses 8-bit quantization by default. If you would like to use different precision simply change the BITS and BITS_EXP in [network.h](src/network.h)  according to the comments in the file. Also replace the contents of [tanh.h](src/tanh.h) with the appropriate values of Tanh function of the precision you selected (.i.e. for 6-bits you must replace it with the contents of tanh_6.h). Then re-build the whole project.
+- (Optional): The project uses 8-bit quantization by default. If you would like to use different precision simply change the BITS and BITS_EXP in [network.h](src/network.h)  according to the comments in the file. Also replace the contents of [tanh.h](src/tanh.h) with the appropriate pre-computed values of Tanh function of the precision you selected (.i.e. for 6-bits you must replace it with the contents of tanh_6.h). Then re-build the whole project.
 
 ## Demo
 
