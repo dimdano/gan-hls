@@ -22,6 +22,7 @@ gan-hls is a Deep Learning project that implements an Image Reconstruction algor
 - Ubuntu Linux (18.04 recommended)
 - Vitis 2020.2 installed with XRT 2.9.317
 - Alveo U50 FPGA device installed and configured
+- (Optional) Jupyter Notebook for visualizing output
 
 
 ## HLS compilation
