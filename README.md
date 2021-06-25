@@ -7,7 +7,7 @@ gan-hls is a Deep Learning project that implements an Image Reconstruction algor
 
 
 ### Features
-- Application: Image reconstruction with GANs
+- Application: Accelerated Image reconstruction with GANs and cloud FPGAs
 - Input data: 28x28 greyscale images
 - Dataset:  Fashion MNIST clothing images (60K images train set, 10K images test set)
 - Classes: 10 	
