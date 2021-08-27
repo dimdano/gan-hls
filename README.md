@@ -63,6 +63,24 @@ make host TARGET=hw DEVICE=xilinx_u50_gen3x16_xdma_201920_3
 
 The application produces an "output.txt" which contains the generated half images of the input dataset (one by one the pixels). In order to visualize the resuls run the jupyter notebook [plot_output.ipynb](plot_output.ipynb) which is provided.
 
+#### Publication
+
+In case you use some of the code please cite the following paper:
+
+```
+@misc{
+  author =       "Dimitrios Danopoulos, Konstantinos Anagnostopoulos, Christoforos Kachris, and Dimitrios Soudris",
+  title =        "FPGA Acceleration of Generative Adversarial Networks for Image Reconstruction",
+  conference =   "The International Conference on Modern Circuits and Systems Technologies (MOCAST)",
+  year =         "2021",
+  month =        "July",
+}
+```
+#### Acknowledgements
+
+This project has received funding from the Hellenic Foundation for Research and Innovation (HFRI) and the General Secretariat for Research and Technology (GSRT) under grant agreement no 2212 and the Xilinx University Program.
+    <img src="http://www.elidek.gr/wp-content/uploads/2018/05/HFRI_LOGO_SMALL.png" alt="" width=355 height=164>
+    <img src="https://www.cl.cam.ac.uk/teaching/1011/P33/logo/xup.jpg" alt="" width=125 height=126>
 
 ## Contact
 
